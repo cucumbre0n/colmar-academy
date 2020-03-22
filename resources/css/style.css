@@ -167,7 +167,18 @@ main {
 /* Practice Main Panel */
 
 .practice {
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: row;
+}
 
+.practice-quote-text {
+  width: 80%;
+}
+
+.practice img {
+  padding: 32px 24px;
+  width: 90%;
 }
 
 .man-reading {
@@ -175,11 +186,13 @@ main {
 }
 
 .practice-quote {
-
+  padding-left: 24px;
+  width: 70%;
 }
 
 .practice-quote h2 {
-
+  padding-bottom: 24px;
+  font-size: 2.5em;
 }
 
 .practice-quote p {
@@ -187,7 +200,8 @@ main {
 }
 
 .quote-credit {
-
+  padding-top: 24px;
+  padding-bottom: 32px;
 }
 
 .quote-credit p {
@@ -198,18 +212,28 @@ main {
 
 /* Main Style */
 .top-side-panels {
+  border-left: 1px solid lightgray;
+  width: 40%;
+  background-color: white;
+}
+
+.top-side-panels .p-text {
 
 }
 
 .top-side-panels h3 {
-
+  padding-bottom: 8px;
 }
 
 .top-side-panels p {
-
+  padding-bottom: 8px;
 }
 
 .top-side-panels a {
+  text-decoration: none;
+}
+
+.top-side-panels .p-img {
 
 }
 
@@ -220,55 +244,73 @@ main {
 /* Orentation */
 
 .orientation {
-
+  display: flex;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  height: 27%;
+  align-items: center;
 }
 
-.orientation-img {
-
+.orientation-img  {
+  width: 35%;
+  height: 50;
 }
 
 .orientation img {
-
+  width: 100%;
+  padding: 16px 16px;
 }
 
 .orientation-text {
-
+  width: 65%;
 }
 
 /* Campus */
 
 .campus {
-
+  display: flex;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  height: 27%;
+  align-items: center;
 }
 
 .campus-img {
-
+  width: 35%;
+  height: auto;
 }
 
 .campus img {
-
+  width: 100%;
+  padding-left: 16px 16px;
 }
 
 .campus-text {
-
+  width: 65%;
 }
 
 /* Lecture */
 
 .lecture {
-
+  display: flex;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  height: 27%;
+  align-items: center;
 }
 
 .lecture-img {
-
+  width: 35%;
+  height: auto;
 }
 
 .lecture img {
-
+  width: 100%;
+  padding-left: 16px 16px;
 }
 
 .lecture-text {
-
+  width: 65%;
 }
 
 /* -------- */
