@@ -105,8 +105,7 @@ header nav a {
 /* Main Styles */
 
 main {
-  position: relative;
-  top: 200px;
+  margin-top: 1%;
 }
 
 /* Sections */
@@ -116,26 +115,53 @@ main {
 
 .learning {
   background-color: lightgray;
+  display: inline-flex;
+  font-family: "Ubuntu";
 }
 
 .learning .banner-img {
-
+  padding: 32px 24px;
+  max-width: 60%;
+  height: auto;
 }
 
-.learning h1 {
+.learning-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 85%;
+}
 
+.learning-text h1 {
+  width: 85%;
+  font-size: 3em;
+  opacity: 0.65;
+  margin: 0 auto;
 }
 
 .learning h5 {
-
+  width: 85%;
+  font-size: 1.5em;
+  opacity: 0.5;
+  font-weight: 500;
 }
 
 .learning p {
-
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 0.65;
+  font-weight: 400;
 }
 
 .start-button {
-
+  border: 1px solid hsla(162, 1%, 31%, 1);
+  background-color: hsla(162, 1%, 31%, 1);
+  width: 80%;
+  padding: 8px 0;
+  margin-right: 5%;
 }
 
 /* Practice Main Panel */
