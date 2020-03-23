@@ -561,6 +561,7 @@ footer p {
 footer .footer-content {
   display: flex;
   width: 100%;
+  align-items: baseline;
 }
 
 footer .copyright {
