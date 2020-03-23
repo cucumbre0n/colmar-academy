@@ -106,6 +106,7 @@ header nav a {
 
 main {
   margin-top: 1%;
+  background-color: hsla(132, 0%, 95%, 1);
 }
 
 /* Sections */
@@ -410,9 +411,14 @@ main {
 
 /* Thesis Exhibit */
 
+.bottom-panels {
+  display: flex;
+}
+
 .exhibit {
   background-color: hsla(132, 0%, 95%, 1);
   font-family: "Ubuntu";
+  width: 60%;
 }
 
 .exhibit .exhibit-header {
@@ -423,7 +429,7 @@ main {
   margin-top: 0;
   padding-top: 32px;
   padding-bottom: 32px;
-  text-align: center;
+  text-align: right;
   font-size: 2.5em;
 }
 
@@ -434,7 +440,7 @@ main {
 }
 
 .exhibit-video video {
-  width: 60%;
+  width: 90%;
   padding-right: 24px;
   padding-bottom: 32px;
   padding-left: 24px;
@@ -443,21 +449,27 @@ main {
 /* Video Text */
 
 .urban-exhibit {
-  width: 60%;
+  width: 90%;
   padding-left: 24px;
   padding-bottom: 32px;
 }
 
-.urban-exhibit h3 {
-
-}
-
-.urban-exhibit p {
-
-}
-
 .urban-text {
 
+}
+
+.urban-text h3 {
+  padding-bottom: 8px;
+  margin: 0;
+  font-size: 2em;
+  opacity: 0.6;
+}
+
+.urban-text p {
+  width: 95%;
+  font-size: 1.2em;
+  margin: 0;
+  font-weight: 300;
 }
 
 /* Bottom Side Panels */
@@ -466,6 +478,10 @@ main {
 
 .bottom-side-panels {
   background-color: hsla(132, 0%, 95%, 1);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 144px;
 }
 
 .bottom-side-panels img {
@@ -483,59 +499,78 @@ main {
 /* Fisma Exhibit */
 
 .fisma {
-
+  display: flex;
+  background-color: lightgray;
+  height: 27%;
 }
 
 .fisma-img {
-
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
 }
 
 .fisma-img img {
-
+  width: 100%;
+  height: 100%;
 }
 
 .fisma-text {
-
+  width: 65%;
 }
 
 /* Now and Then Exhibit */
 
 .now-then {
-
+  display: flex;
+  height: 27%;
 }
 
 .now-then-img {
-
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
 }
 
 .now-then-img img {
+  width: 100%;
+  height: 100%;
 
 }
 
 .now-then-text {
-
+  width: 65%;
 }
 
 /* Footer */
 
-footer {
+hr {
+  margin: 0;
+}
 
+footer {
+  background-color: hsla(132, 0%, 95%, 1);
+  width: 100%;
+  font-family: "Ubuntu";
 }
 
 footer p {
-
+  margin: 0;
 }
 
 footer .footer-content {
-
+  display: flex;
+  width: 100%;
 }
 
 footer .copyright {
-
+  width: 100%;
+  padding-left: 24px;
 }
 
 footer .links {
-
+  display: inline-flex;
+  justify-content: flex-end;
 }
 
 .links ul {
@@ -543,5 +578,11 @@ footer .links {
 }
 
 .links li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 24px;
+}
+
+.links a {
 
 }
